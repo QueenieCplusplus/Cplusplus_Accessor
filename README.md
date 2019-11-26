@@ -55,6 +55,13 @@
               total_val= shares * share_val;
             }
 
+  
+                 實作區 （成員函數）
+                /
+               /
+              /
+             /
+            /
        public:
             void before(const char *com, int n, double pr);
             void buy(int shareAmount, double dealPrice);
