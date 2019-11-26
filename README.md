@@ -6,10 +6,17 @@
     class ShareMarket{
 
        private:
-
+            char target[10];
+            int shares;
+            float share_val;
+            double total_val;
 
        public:
-
+            void before();
+            void buy();
+            void sell();
+            void after();
+            void show();
 
     };
 
