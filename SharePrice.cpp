@@ -26,7 +26,7 @@
         //  /
         // /
    public:
-        void before(const char *com, int n, double pr);
+        void before(const char *com, int n, double pr); //請使用建構子替代之
         void buy(int shareAmount, double dealPrice);
         void sell(int shareAmount, double dealPrice);
         void after(double dealPrice);
