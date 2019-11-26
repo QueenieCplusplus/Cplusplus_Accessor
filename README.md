@@ -34,5 +34,39 @@
     };
     
   如上介面（即類別的公有函數）定義不完全，此類別可以稱為抽象類別。
+  如下，則為類別的具體化，稱為具體類別。
+  
+      class ShareMarket{
+
+               此處為封裝區 Encapsulation
+              /
+             /
+            /
+           /
+          /
+       private:
+            char target[10];
+            int shares;
+            float share_val;
+            double total_val;
+            void know_totoal(){
+              total_val= shares * share_val;
+            }
+
+       public:
+            void before(const char *com, int n, double pr);
+            void buy(int shareAmount, double dealPrice);
+            void sell(int shareAmount, double dealPrice);
+            void after(double dealPrice);
+            void show();
+                       \
+                        \
+                         \ 
+                          \
+                           \ 
+                            此處作抽象化處理 Abstract 
+
+
+    };
 
 
