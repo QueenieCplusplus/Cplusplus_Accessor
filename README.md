@@ -3,6 +3,8 @@
 
 任何實例都可以直接存取 public: 的部分，而程式僅能藉由 public 關鍵字後的 member func 存取實例的 private 成員。
 
+在 C++ 語法中，如無寫上關鍵字，則預設均為 private。
+
     class ShareMarket{
 
                此處為封裝區 Encapsulation，強調資料的隱藏性。
