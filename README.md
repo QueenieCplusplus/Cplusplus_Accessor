@@ -5,6 +5,12 @@
 
     class ShareMarket{
 
+               此處為封裝區 Encapsulation
+              /
+             /
+            /
+           /
+          /
        private:
             char target[10];
             int shares;
@@ -17,6 +23,13 @@
             void sell();
             void after();
             void show();
+                       \
+                        \
+                         \ 
+                          \
+                           \ 
+                            此處作抽象化處理 Abstract 
+            
 
     };
     
