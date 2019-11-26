@@ -5,7 +5,7 @@
 
     class ShareMarket{
 
-               此處為封裝區 Encapsulation
+               此處為封裝區 Encapsulation，強調資料的隱藏性。
               /
              /
             /
